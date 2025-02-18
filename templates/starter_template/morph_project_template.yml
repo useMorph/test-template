@@ -1,0 +1,7 @@
+template_name: starter_template
+resources:
+  database:
+    seeds:
+      - ./seeds/0_init.sql
+  llm:
+    model: deepseek-r1
